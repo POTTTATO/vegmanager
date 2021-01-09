@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="vegmanage:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>vegmanage</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="vegmanage-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="vegmanage:war exploded" />
+    </root>
+  </artifact>
+</component>
